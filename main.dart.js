@@ -93471,9 +93471,9 @@ h=A.ks(A.hS(B.EX,A.fH(B.be,A.b([q,A.hc(new A.iJ(B.l,n,n),B.F,B.U,r)],p),B.x,B.a2
 r=o.d?B.Ha:B.Kv
 s=A.b([new A.bW(0,B.a4,A.aM(140,B.l.F()>>>16&255,B.l.F()>>>8&255,B.l.F()&255),B.Vt,14)],s)
 if(A.au(a,B.H,j).w.a.a>1024)j=16
-else if(A.au(a,B.H,j).w.a.a<=500)j=13
-else j=A.au(a,B.H,j).w.a.a<=700?14:15
-return A.cd(n,A.dK(new A.bY(B.eX,A.os(n,A.hS(g,A.d4(A.b([h,A.ks(A.os(n,A.d4(A.b([A.VV(B.dt,A.bU(m.a,2,B.b0,A.fJ(n,n,B.i,n,n,n,n,n,n,n,n,j,n,n,B.lg,n,n,!0,n,0.3,n,n,n,n,n,n),n),new A.aEQ(o))],p),B.aE,B.b7,B.w,B.P),B.F,new A.bz(r,n,n,B.EW,s,n,B.E),B.U,n,n,B.pj,n),3)],p),B.bV,B.C,B.w,B.P)),B.F,new A.bz(n,n,n,k,i,B.Pg,B.E),B.U,n,n,B.Mv,n),n),B.as,n,new A.aER(o),new A.aES(o),n),B.v,!1,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,new A.aET(o,a),n,n,n,!1,B.K)}}
+else if(A.au(a,B.H,j).w.a.a<=350)j=13
+else{if(!(A.au(a,B.H,j).w.a.a<=500))A.au(a,B.H,j).toString
+j=15}return A.cd(n,A.dK(new A.bY(B.eX,A.os(n,A.hS(g,A.d4(A.b([h,A.ks(A.os(n,A.d4(A.b([A.VV(B.dt,A.bU(m.a,2,B.b0,A.fJ(n,n,B.i,n,n,n,n,n,n,n,n,j,n,n,B.lg,n,n,!0,n,0.3,n,n,n,n,n,n),n),new A.aEQ(o))],p),B.aE,B.b7,B.w,B.P),B.F,new A.bz(r,n,n,B.EW,s,n,B.E),B.U,n,n,B.pj,n),3)],p),B.bV,B.C,B.w,B.P)),B.F,new A.bz(n,n,n,k,i,B.Pg,B.E),B.U,n,n,B.Mv,n),n),B.as,n,new A.aER(o),new A.aES(o),n),B.v,!1,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,new A.aET(o,a),n,n,n,!1,B.K)}}
 A.aET.prototype={
 $0(){return A.aQY(this.b,"/project-details/"+this.a.a.c,t.X)},
 $S:0}
